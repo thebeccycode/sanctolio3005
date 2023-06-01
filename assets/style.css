@@ -1,0 +1,35 @@
+*{
+    background-color: #92b69f;
+    color: beige;
+}
+
+header{
+    height: 200px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+li{
+    font-size: larger;
+}
+
+a{
+    text-decoration:none !important;
+    color:rgb(202, 50, 189) !important;
+}
+
+
+
+p{  
+    font-family: 'Roboto Condensed', sans-serif;   
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Castoro Titling', cursive;
+}
