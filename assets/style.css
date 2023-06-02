@@ -1,20 +1,19 @@
-*{
-    background-color: #92b69f;
-    color: beige;
-}
+
 
 header{
-    height: 200px;
+    margin-top: 20px;
+    height: 60px;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
 li{
     font-size: larger;
+    align-items: center;
 }
 
 a{
     text-decoration:none !important;
-    color:rgb(202, 50, 189) !important;
+    color: green !important;
 }
 
 
@@ -28,8 +27,24 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 100px;
 }
 
-h1{
+h1, h3{
     font-family: 'Castoro Titling', cursive;
+}
+
+.homepagecta{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   margin: 30px 300px 30px;
+}
+
+button{
+    background-color: #baffd4;
+    border: double #92b69f;
+    width: 180px;
+    align-self: center;
 }
