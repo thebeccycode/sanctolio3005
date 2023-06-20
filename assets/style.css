@@ -34,7 +34,7 @@ h1, h3{
     font-family: 'Castoro Titling', cursive;
 }
 
-.homepagecta{
+.homepagecta, .aboutcta, .contactcta{
    display: flex;
    flex-direction: column;
    justify-content: center;
