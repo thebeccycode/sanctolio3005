@@ -48,3 +48,15 @@ button{
     width: 180px;
     align-self: center;
 }
+
+.completedwebsites a{ 
+    background-color: #baffd4 !important;
+    color: black !important;
+    border: 2px black !important;
+}
+
+.completedwebsites{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
