@@ -44,7 +44,7 @@ h1, h3{
 
 button{
     background-color: #baffd4;
-    border: double #92b69f;
+    border: 2px black;
     width: 180px;
     align-self: center;
 }
@@ -65,4 +65,10 @@ button{
     border: white 20px;
     font-family: 'Castoro Titling', cursive;
    
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
 }
