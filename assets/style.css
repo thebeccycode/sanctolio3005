@@ -31,7 +31,7 @@ nav a {
 }
 
 .divider-photo{
-    background-image: url(../images/pexels-fauxels-3182774.jpg);
+    background-image: url(../images/blurbkgrd.jpg);
     background-color: #cccccc;
     height: 400px;
     background-position: center;
@@ -49,6 +49,10 @@ nav a {
     color: white;
     font-family: 'Crimson Pro';
 }
+
+
+
+
 
 .comp3-container {
     display: flex;
@@ -89,7 +93,7 @@ p{
     background-color: #dce7cd;
 }
 
-.about-me, .portfolio{
+.about-me, .portfolio, .services-container{
     padding-left: 40px;
     padding-right: 40px;
     width: 800px;
@@ -138,4 +142,26 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.hero-portfolio{
+    background-image: url(../images/ptfliobkgrd.jpg);
+    background-color: #cccccc;
+    height: 240px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text-portfolio{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 1px 1px #006400;
+    font-family: 'Crimson Pro';
+    font-size: 72px;
 }
