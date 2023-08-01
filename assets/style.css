@@ -166,10 +166,10 @@ header{
     font-size: 72px;
 }
 
-.reviews-container{
+.reviews-container, .contact-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .card{
@@ -178,4 +178,15 @@ header{
     padding-right: 40px;
     padding-bottom: 10px;
     width: 40%;
+}
+
+.contact-card,.form-card{
+    padding: 50px;
+}
+
+.submit-form{
+    background-color:#006400;
+    color:#cccccc;
+    margin-top: 10px;
+    
 }
