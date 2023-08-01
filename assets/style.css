@@ -79,7 +79,7 @@ a, h1{
 }
 
 h4, h3{
-    font-family: 'Castoro titling';
+    font-family: 'Crimson pro';
 }
 
 p{
@@ -106,22 +106,6 @@ p{
     
   }
 
-
-
-.comp3-cta {
-    background-color: #92b69f;
-    border: none;
-    color: #006400;
-    font-weight: bold;
-    padding: 12px 30px;
-    font-family: 'Crimson pro';
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
 
 footer{
     background-color: #92b69f !important;
@@ -172,6 +156,8 @@ header{
     justify-content: space-evenly;
 }
 
+
+
 .card{
     padding-top: 10px;
     padding-left: 40px;
@@ -180,13 +166,33 @@ header{
     width: 40%;
 }
 
+    .portfolio-card{
+        width: 70%;
+        margin: 40px;
+    }
+
+
+
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    
+}
+
+
+
 .contact-card,.form-card{
     padding: 50px;
 }
 
-.submit-form{
+.submit-form, .comp3-cta{
     background-color:#006400;
     color:#cccccc;
     margin-top: 10px;
+    padding: 5px;
+    border: 16px black;
+    border-radius: 12px;
+    width: 160px;
     
 }
