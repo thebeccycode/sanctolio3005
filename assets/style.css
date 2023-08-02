@@ -99,11 +99,21 @@ p{
     width: 800px;
 }
 
+.ethos-container{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #dce7cd;
+    
+}
+
 .vl {
     border-left: 3px solid #006400;
     border-right:#92b69f 3px solid;
-    height: 400px;
-    
+    height: 400px; 
   }
 
 
