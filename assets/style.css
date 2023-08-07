@@ -9,27 +9,20 @@
     }
 
     .dropbtn {
-        background-color: #006400;
-        color: #cccccc;
-        margin-top: 20px;
-        margin-right: 5px;
-        padding: 8px;
-        border: 10px black;
-        border-radius: 10px;
-        width: 80px;
+        color: #006400;
         float: right;
-        font-family: 'Crimson Pro';
-        font-size: 20px;
+        font-family: 'quicksand';
+        font-size: 24px;
+        border: none;
+        background-color: #92b69f;
+        align-items: center;
+        margin-top: 10px;
+        margin-right: 10px;
     }
 
     .nav-right {
         float: right;
         justify-content: center;
-    }
-
-    .dropbtn:hover {
-        background-color: #dce7cd;
-        color: #006400;
     }
 
     .dropdown {
@@ -87,12 +80,14 @@
     }
 
     .herotitle {
-        font-size: 28px;
+        font-size: 36px;
     }
 
     .herotagline {
         font-size: 14px;
     }
+
+    
 
     /*COMP3 CONTAINER MQ*/
     .comp3-container,
@@ -103,13 +98,9 @@
         padding-top: 40px;
         padding-left: 20px;
         padding-right: 40px;
-        margin-top: 40px #92b69f;;
+        margin-top: 40px #92b69f;
         margin-bottom: 40px #92b69f;
         background-color: #92b69f;
-    }
-
-    .comp3-container li {
-        list-style-type: none;
     }
 
     .comp3-container a {
@@ -123,7 +114,8 @@
         display: none;
     }
 
-    .comp3-cta, .submit-form{
+
+    .submit-form {
         background-color: #006400;
         color: #cccccc;
         margin-top: 10px;
@@ -140,8 +132,8 @@
     .about-me p,
     .ethos-container p {
         font-family: 'quicksand';
-        font-size: 14;
-        
+        font-size: 20px;
+
     }
 
     .about-me h4,
@@ -157,7 +149,8 @@
         font-family: 'Quicksand';
         font-size: 12px;
         padding: 10px;
-        margin-top: 40px #92b69f;;
+        margin-top: 40px #92b69f;
+        ;
         margin-bottom: 20px #92b69f;
     }
 
@@ -182,9 +175,9 @@
     .portfolio img {
         float: left;
         width: 80px;
-        border-radius: 20%;
+        border-radius: 15%;
         margin: 10px;
-        
+
     }
 
     .portfolio h1 {
@@ -195,7 +188,7 @@
 
     .portfolio p {
         font-family: 'quicksand';
-        font-size: 14;
+        font-size: 20px;
         float: right;
     }
 
@@ -216,7 +209,7 @@
 
     .services-container p {
         font-family: 'quicksand';
-        font-size: 14;
+        font-size: 20px;
     }
 
     /*CONTACT PAGE CONTAINERS*/
@@ -224,7 +217,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        
+
     }
 
     .contact-container h3 {
@@ -232,33 +225,41 @@
         font-size: 28px;
     }
 
-    .contact-container p {
+    .contact-container h6 {
         font-family: 'quicksand';
-        font-size: 14;
+        font-size: 20px;
     }
 
-    .form-card, .contact-card{
+    .form-card,
+    .contact-card {
         padding: 40px;
-        
+
     }
 
-    label{
+    label {
         font-family: 'Quicksand';
-        font-size: 14px;
+        font-size: 20px;
         font-weight: bold;
     }
 
     input[type=text] {
         border: 2px solid #006400;
         border-radius: 4px;
-      }
+        width: 100%;
+        font-family: 'Quicksand';
+        font-size: 20px;
 
-      input[type=number] {
+    }
+
+    input[type=number] {
         border: 2px solid #006400;
         border-radius: 4px;
-      }
+        width: 100%;
+        font-family: 'Quicksand';
+        font-size: 20px;
+    }
 
-      textarea {
+    textarea {
         width: 100%;
         height: 150px;
         padding: 12px 20px;
@@ -267,7 +268,9 @@
         border-radius: 4px;
         background-color: #f8f8f8;
         resize: none;
-      }
+        font-family: 'Quicksand';
+        font-size: 20px;
+    }
 
     /*REVIEWS CONTAINER MEDIA QUERIES */
     .reviews-container {
@@ -279,7 +282,7 @@
     .reviews-container-card {
         background-color: #92b69f !important;
         border: none !important;
-        margin-bottom: 20px;
+        margin: 20px;
     }
 
     .reviews-container img {
@@ -296,7 +299,7 @@
 
     .reviews-container p {
         font-family: 'quicksand';
-        font-size: 12;
+        font-size: 20px;
 
     }
 
@@ -317,18 +320,15 @@
     }
 
     .dropbtn {
-        background-color: #006400;
-        color: #dce7cd;
-        margin-top: 12px;
-        margin-right: 5px;
-        padding: 10px;
-        border: 5px black;
-        border-radius: 20px;
-        width: 70px;
+        color: #006400;
         float: right;
-        font-family: 'crimson pro';
-        font-size: 20px;
-
+        font-family: 'quicksand';
+        font-size: 24px;
+        border: none;
+        background-color: #92b69f;
+        align-items: center;
+        margin-top: 10px;
+        margin-right: 10px;
     }
 
     .nav-right {
@@ -396,11 +396,33 @@
         font-family: 'Crimson Pro';
     }
 
+    .herotitle {
+        font-size: 58px;
+    }
+
+    .herotagline {
+        font-size: 18px;
+    }
+
     /*HIDE HIGHLIGHTS ON SMALLER SCREENS*/
     .highlightsmenu,
     .vl {
         display: none;
     }
+
+    /*HOMEPAGE MEDIA QUERIES*/
+    .about-me h4,
+    .ethos-container h4 {
+        font-family: 'crimson pro';
+        font-size: 32px;
+    }
+
+    .about-me p,
+    .ethos-container p {
+        font-family: 'Quicksand';
+        font-size: 22px;
+    }
+
 
     /*PORTFOLIO COMPONENT MEDIA QUERIES*/
 
@@ -418,6 +440,7 @@
 
     .portfolio img {
         float: left;
+        border-radius: 15%;
         width: 80px;
     }
 
@@ -428,7 +451,7 @@
 
     .portfolio p {
         font-family: 'quicksand';
-        font-size: 16px;
+        font-size: 22px;
         float: right;
     }
 
@@ -454,7 +477,7 @@
         font-weight: bold;
     }
 
-    .comp3-cta, .submit-form {
+    .submit-form {
         background-color: #006400;
         color: #cccccc;
         margin-top: 10px;
@@ -493,7 +516,7 @@
 
     .services-container p {
         font-family: 'quicksand';
-        font-size: 18px;
+        font-size: 22px;
     }
 
     /*CONTACT PAGE CONTAINERS*/
@@ -501,27 +524,28 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        
+
     }
 
-    .contact-container h3 {
-        font-family: 'crimson pro';
+    .contact-card h3 {
         font-size: 32px;
+        font-family: 'crimson pro';
     }
 
-    .contact-container p {
-        font-family: 'quicksand';
-        font-size: 18px;
+    .contact-card h6 {
+        font-size: 22px;
+        font-family: 'quicksand'
     }
 
-    .form-card, .contact-card {
+    .form-card,
+    .contact-card {
         padding: 40px;
-        
+
     }
 
-    label{
+    label {
         font-family: 'Quicksand';
-        font-size: 14px;
+        font-size: 22px;
         font-weight: bold;
     }
 
@@ -529,15 +553,15 @@
         border: 2px solid #006400;
         border-radius: 4px;
         width: 100%;
-      }
+    }
 
-      input[type=number] {
+    input[type=number] {
         border: 2px solid #006400;
         border-radius: 4px;
         width: 100%;
-      }
+    }
 
-      textarea {
+    textarea {
         width: 100%;
         height: 150px;
         padding: 12px 20px;
@@ -546,7 +570,7 @@
         border-radius: 4px;
         background-color: #f8f8f8;
         resize: none;
-      }
+    }
 
     /*REVIEWS CONTAINER MEDIA QUERIES */
     .reviews-container {
@@ -568,15 +592,19 @@
         margin: 10px;
     }
 
-    .reviews-container h1 {
+    .reviews-container h6 {
         font-family: 'crimson pro';
-        font-size: 32px;
+        font-size: 22px;
     }
 
     .reviews-container p {
         font-family: 'quicksand';
-        font-size: 18px;
+        font-size: 22px;
 
+    }
+
+    .hero-title {
+        font-size: 50px;
     }
 
 
@@ -605,23 +633,35 @@
         font-family: 'Crimson Pro';
     }
 
-    /*HIGHLIGHTS MENU REVEAL*/
+    .dropbtn {
+        color: #006400;
+        float: right;
+        font-family: 'quicksand';
+        font-size: 28px;
+        border: none;
+        background-color: #92b69f;
+        align-items: center;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+
     .highlightsmenu,
     .vl {
-        display: block;
+        display: none;
     }
 
     .vl {
         border-left: 3px solid #006400;
         border-right: #92b69f 3px solid;
-        height: 400px;
+        height: auto;
     }
 
-    /*OOMP3 CONTAINER NOW ROW*/
+    /*COMP3 CONTAINER*/
     .comp3-container,
     .ethos-container {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         padding-bottom: 80px;
         padding-top: 40px;
         padding-left: 40px;
@@ -639,7 +679,16 @@
         font-weight: bold;
     }
 
-    .comp3-cta {
+    .herotitle {
+        font-size: 60px;
+    }
+
+    .herotagline {
+        font-size: 30px;
+    }
+
+
+    .submit-form {
         background-color: #006400;
         color: #cccccc;
         margin-top: 10px;
@@ -648,6 +697,8 @@
         border-radius: 12px;
         width: 160px;
         float: right;
+        font-family: 'crimson pro';
+        font-size: 18px;
     }
 
     .ethos-container {
@@ -657,20 +708,137 @@
     }
 
     .highlightsmenu {
-        padding-top: 30px;
-        padding-left: 20px;
-        padding-right: 40px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 60px;
         width: 300px;
         background-color: #dce7cd;
+
     }
 
-    .about-me,
-    .portfolio,
-    .services-container,
+    .highlightsmenu h3 {
+        font-family: 'Crimson Pro';
+        font-size: 36px;
+    }
+
+    .highlights a {
+        font-family: 'quicksand';
+        font-size: 14px;
+    }
+
+
+
+
+
+    /*SERVICES MEDIA QUERIES*/
+    .services-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 40px;
+    }
+
+    .services-container h3 {
+        font-family: 'crimson pro';
+        font-size: 36px;
+    }
+
+    .services-container p {
+        font-family: 'quicksand';
+        font-size: 22px;
+    }
+
+    /*CONTACT PAGE CONTAINERS*/
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .contact-container h3 {
+        font-family: 'crimson pro';
+        font-size: 36px;
+    }
+
+    .contact-container p {
+        font-family: 'quicksand';
+        font-size: 22px;
+    }
+
+    .form-card,
+    .contact-card {
+        padding: 40px;
+
+    }
+
+    label {
+        font-family: 'Quicksand';
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    input[type=text] {
+        border: 2px solid #006400;
+        border-radius: 4px;
+        width: 100%;
+        font-family: 'Quicksand';
+        font-size: 20px;
+
+    }
+
+    input[type=number] {
+        border: 2px solid #006400;
+        border-radius: 4px;
+        width: 100%;
+        font-family: 'Quicksand';
+        font-size: 20px;
+    }
+
+    textarea {
+        width: 100%;
+        height: 150px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid #006400;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        resize: none;
+        font-family: 'Quicksand';
+        font-size: 20px;
+    }
+
+    /*REVIEWS CONTAINER MEDIA QUERIES */
     .reviews-container {
-        padding-left: 40px;
-        padding-right: 40px;
-        width: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 40px;
+    }
+
+    .reviews-container-card {
+        background-color: #92b69f !important;
+        border: none !important;
+        margin-bottom: 20px;
+
+    }
+
+    .reviews-container img {
+        float: left;
+        width: 80px;
+        border-radius: 20%;
+        margin: 10px;
+    }
+
+    .reviews-container h1 {
+        font-family: 'crimson pro';
+        font-size: 36px;
+    }
+
+    .reviews-container p {
+        font-family: 'quicksand';
+        font-size: 22px;
+
     }
 }
 
@@ -681,7 +849,7 @@
     .divider-photo {
         background-image: url(../images/blurbkgrd.jpg);
         background-color: #cccccc;
-        height: 400px;
+        height: 380px;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -698,7 +866,160 @@
         font-family: 'Crimson Pro';
     }
 
-}
+    .dropbtn {
+        color: #006400;
+        float: right;
+        font-family: 'quicksand';
+        font-size: 32px;
+        border: none;
+        background-color: #92b69f;
+        align-items: center;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+    /*COMP3 CONTAINER MEDIA QUERIES*/
+
+    .highlightsmenu,
+    .vl {
+        display: block;
+    }
+
+    .vl {
+        border-left: 3px solid #006400;
+        border-right: #92b69f 3px solid;
+        margin-right: 30px;
+        height: auto;
+    }
+
+    /*COMP3 CONTAINER*/
+    .comp3-container {
+        display: flex;
+        flex-direction: row;
+        padding-top: 40px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 40px;
+        background-color: #92b69f;
+    }
+
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+    }
+
+
+
+    .ethos-container {
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+        background-color: #92b69f;
+    }
+
+    .comp3-container a {
+        text-decoration: none;
+        color: darkgreen;
+        font-weight: bold;
+
+    }
+
+    .highlightsmenu {
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 60px;
+        width: 300px;
+        background-color: #dce7cd;
+
+    }
+
+    .highlightsmenu h3 {
+        font-family: 'Crimson Pro';
+        font-size: 36px;
+    }
+
+    .highlightsmenu a {
+        font-family: 'quicksand';
+        font-size: 18px;
+    }
+
+    a:hover,
+    a:focus {
+        color: purple;
+    }
+
+    .portfolio {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .portfolio-card {
+        width: 460px;
+        padding: 40px;
+    }
+
+    .portfolio img {
+        border-radius: 15%;
+
+    }
+
+    .portfolio h1 {
+        font-size: 36px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .portfolio p,
+    .portfolio a {
+        font-size: 18px;
+    }
+
+    .services-container h3 {
+        font-size: 36px;
+    }
+
+    .services-container h6 {
+        font-size: 20px;
+        padding-top: 6px;
+    }
+
+    .services-container p {
+        font-size: 18px;
+
+    }
+
+    .services-container {
+        width: 800px;
+    }
+
+    .reviews-container {
+        width: 800px;
+    }
+
+    .reviews-container h6 {
+        font-size: 20px;
+        font-family: 'crimson pro';
+    }
+
+    .reviews-container p {
+        font-size: 18px;
+        font-family: 'quicksand'
+    }
+
+    .contact-card h3 {
+        font-size: 36px;
+    }
+
+    .contact-card h6 {
+        font-size: 20px;
+        font-family: 'quicksand'
+    }
+
+
+
+
+}
