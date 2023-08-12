@@ -375,8 +375,7 @@
         color: #170312 !important;
     }
 
-    .highlightsmenu,
-    .vl {
+    .highlightsmenu{
         display: none;
     }
 
@@ -628,8 +627,7 @@
     }
 
     /*HIDE HIGHLIGHTS ON SMALLER SCREENS*/
-    .highlightsmenu,
-    .vl {
+    .highlightsmenu{
         display: none;
     }
 
@@ -744,12 +742,12 @@
     .dropbtn {
         background-color: #004e64;
         color: #CDE7B0;
-        float: right;
-        border: none;
-        margin-top: 100%;
-        margin-right: 20%;
+        padding: 10%;
+        margin-top: 10%;
         font-family: 'quicksand';
-        font-size: 30px;
+        font-size: 36px !important;
+        float: right;
+        
 
     }
 
@@ -801,54 +799,75 @@
         border-radius: 15%;
     }
 
-    .highlightsmenu {
+
+    .comp3-container {
         display: flex;
-        flex-direction: column;
-        width: 600px;
-        padding: 20px;
-        margin-right: 100px;
-        background-color: #CDE7B0 !important;
+        flex-direction: row;
+        margin-top: 40px !important;
+        margin-left: 100px !important;
+        padding: 0 !important;
+        
+    }
+
+  .highlightsmenu{
+    
+    width: 260px;
+    padding: 10px;
+    margin-bottom: 40px;
+    min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         z-index: 1;
         border: #CDE7B0 2px double !important;
         border-radius: 10px;
-    }
+
+  }
+
+  .about-me {
+   padding: 40px; 
+   width: 800px;
+}
 
     .highlightsmenu h3 {
         font-family: 'crimson pro';
         font-weight: bold;
     }
 
+    .highlightsmenu ul{
+        list-style-type: none;
+        
+    }
+
     .highlightsmenu a {
         font-family: 'quicksand';
+        text-decoration: none !important;
+        list-style-type: none !important;
     }
 
     .highlightsmenu {
         display: block;
     }
 
-    .about-me {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;  
-    }
+    
 
     .about-me-title{
         display: none;
     }
-    .comp3-container {
-        display: flex;
-        flex-direction: row;
-        margin-top: 0px !important;
-        padding: 30px !important;
-    }
+    
 
     .ethos-container{
         display: flex;
         flex-direction: column;
         margin-top: 0px !important;
+        margin-left: 100px !important;
+        margin-right: 100px !important;
         padding: 30px !important;
 
+    }
+
+    .reviews-container, .services-container, .contact-container, .portfolio{
+        width: 800px;
+        padding-bottom: 40px;
+        padding-left: 20px;
     }
 
     .footer-container {
@@ -875,6 +894,26 @@
         font-weight: bolder;
         text-decoration: none;
     }
+
+    /*contact page*/
+
+    .contact-container h3 {
+        font-size: 24px;
+        font-weight: bold;
+        color: #170312;
+        font-family: 'crimson pro';
+
+    }
+
+    .contact-container h6 {
+        font-size: 18px;
+    }
+
+    .contact-card,
+    .form-card {
+        padding: 10px !important;
+    }
+
 
 
 }
